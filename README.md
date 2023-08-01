@@ -14,6 +14,8 @@ The system is composed of three components:
 
 The system is implemented in Python. To run it, you need Python 3.7 or later. 
 
+**IMPORTANT:** Don't forget to adjust your IP Addresses and change the ports/allow them in your firewall!
+
 ### Install Dependencies
 
 Install the required dependencies using the following command:
