@@ -63,8 +63,7 @@ def receive_stream(stream_ip, stream_port):
         print(f'Error occurred in receive_stream: {e}')
     finally:
         client_socket.close()
-        """ cv2.destroyAllWindows() """
-        input("e")
+        cv2.destroyAllWindows()
 
 def main():
     streams = get_streams() 
